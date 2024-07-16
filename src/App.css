@@ -1,0 +1,33 @@
+body {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+* {
+  font-size: 1.15rem;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-1 {
+  margin-top: 1.5rem;
+}
+
+button,
+a {
+  cursor: pointer;
+}
