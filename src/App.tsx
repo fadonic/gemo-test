@@ -7,8 +7,8 @@ export default function App() {
     <div>
       <h1>Interview SandBox</h1>
       <Timer />
+      <hr className="mb-1" />
       <Count />
-      <hr />
     </div>
   );
 }
