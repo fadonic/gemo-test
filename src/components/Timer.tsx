@@ -1,18 +1,11 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 
 export default function Timer() {
   const [timer, setTimer] = useState<number>(0);
-  const timerRef = useRef<NodeJS.Timeout>();
 
-  const startTimer = () => {
-    timerRef.current = setInterval(() => {
-      setTimer(timer + 1);
-    }, 1000);
-  };
+  const startTimer = () => {};
 
-  const stopTimer = () => {
-    clearInterval(timerRef.current);
-  };
+  const stopTimer = () => {};
 
   return (
     <div className="mb-1">
