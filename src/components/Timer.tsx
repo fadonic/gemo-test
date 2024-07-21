@@ -1,8 +1,10 @@
 import { useRef, useState } from "react";
 
+type timerProp = ReturnType<typeof setTimeout>;
+
 export default function Timer() {
   const [timer, setTimer] = useState<number>(0);
-  const timerRef = useRef<NodeJS.Timeout>();
+  const timerRef = useRef<timerProp>();
 
   const startTimer = () => {
     timerRef.current = setInterval(() => {
